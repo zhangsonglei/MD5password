@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 import com.nkl.common.util.Md5;
 /*
- * ÓÃ»§Çë×ÔĞĞ¼ÓÈëjar°ü
+ * ç”¨æˆ·è¯·è‡ªè¡ŒåŠ å…¥jaråŒ…
+ * By å¼ æ¾ç£Š
  */
 public class Encryption {
 	
@@ -14,21 +15,21 @@ public class Encryption {
 		String confirm = null;
 		Scanner scanner= new Scanner(System.in);
 		
-		System.out.println("½«Òª½øĞĞÊı¾İ¼ÓÃÜÂğ£¨y/n?£©£º");
+		System.out.println("å°†è¦è¿›è¡Œæ•°æ®åŠ å¯†å—ï¼ˆy/n?ï¼‰ï¼š");
 		confirm = scanner.next();	
 		
 		while(confirm == "Y"||confirm == "y")
 		{
-			System.out.println("ÇëÊäÈëÒª¼ÓÃÜµÄÊı¾İ£º");
+			System.out.println("è¯·è¾“å…¥è¦åŠ å¯†çš„æ•°æ®ï¼š");
 			password = scanner.next();
 			
 			md5 = Md5.makeMd5(password);
-			System.out.println("ÃÜÎÄÊÇ£º"+md5);
+			System.out.println("å¯†æ–‡æ˜¯ï¼š"+md5);
 			
-			System.out.println("½«Òª½øĞĞÊı¾İ¼ÓÃÜÂğ£¨y/n?£©£º");
+			System.out.println("å°†è¦è¿›è¡Œæ•°æ®åŠ å¯†å—ï¼ˆy/n?ï¼‰ï¼š");
 			confirm = scanner.next();	
 		}
 		
-		System.out.println("Thanks£¡");
+		System.out.println("Thanksï¼");
 	}
 }
