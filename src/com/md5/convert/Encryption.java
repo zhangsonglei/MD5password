@@ -18,7 +18,7 @@ public class Encryption {
 		System.out.println("将要进行数据加密吗（y/n?）：");
 		confirm = scanner.next();	
 		
-		while(confirm == "Y"||confirm == "y")
+		while(confirm.equals("Y")||confirm.equals("y"))
 		{
 			System.out.println("请输入要加密的数据：");
 			password = scanner.next();
