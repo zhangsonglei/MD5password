@@ -29,6 +29,6 @@ public class Encryption {
 			confirm = scanner.next();	
 		}
 		
-		System.out.println("–ª–ª π”√£°");
+		System.out.println("Thanks£°");
 	}
 }
